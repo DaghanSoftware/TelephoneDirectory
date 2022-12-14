@@ -1,0 +1,12 @@
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Caching\bin\Debug\net7.0\TelephoneDirectory.Caching.deps.json
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Caching\bin\Debug\net7.0\TelephoneDirectory.Caching.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Caching\bin\Debug\net7.0\TelephoneDirectory.Caching.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Caching\obj\Debug\net7.0\TelephoneDirectory.Caching.csproj.AssemblyReference.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Caching\obj\Debug\net7.0\TelephoneDirectory.Caching.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Caching\obj\Debug\net7.0\TelephoneDirectory.Caching.AssemblyInfoInputs.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Caching\obj\Debug\net7.0\TelephoneDirectory.Caching.AssemblyInfo.cs
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Caching\obj\Debug\net7.0\TelephoneDirectory.Caching.csproj.CoreCompileInputs.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Caching\obj\Debug\net7.0\TelephoneDirectory.Caching.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Caching\obj\Debug\net7.0\refint\TelephoneDirectory.Caching.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Caching\obj\Debug\net7.0\TelephoneDirectory.Caching.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Caching\obj\Debug\net7.0\ref\TelephoneDirectory.Caching.dll
