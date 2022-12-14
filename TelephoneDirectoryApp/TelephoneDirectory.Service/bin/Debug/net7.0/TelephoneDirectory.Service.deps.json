@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TelephoneDirectory.Service/1.0.0": {
+        "dependencies": {
+          "TelephoneDirectory.Repository": "1.0.0"
+        },
+        "runtime": {
+          "TelephoneDirectory.Service.dll": {}
+        }
+      },
+      "TelephoneDirectory.Core/1.0.0": {
+        "runtime": {
+          "TelephoneDirectory.Core.dll": {}
+        }
+      },
+      "TelephoneDirectory.Repository/1.0.0": {
+        "dependencies": {
+          "TelephoneDirectory.Core": "1.0.0"
+        },
+        "runtime": {
+          "TelephoneDirectory.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TelephoneDirectory.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TelephoneDirectory.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TelephoneDirectory.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\bin\Debug\net7.0\TelephoneDirectory.Service.deps.json
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\bin\Debug\net7.0\TelephoneDirectory.Service.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\bin\Debug\net7.0\TelephoneDirectory.Service.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\bin\Debug\net7.0\TelephoneDirectory.Core.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\bin\Debug\net7.0\TelephoneDirectory.Repository.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\bin\Debug\net7.0\TelephoneDirectory.Repository.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\bin\Debug\net7.0\TelephoneDirectory.Core.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\obj\Debug\net7.0\TelephoneDirectory.Service.csproj.AssemblyReference.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\obj\Debug\net7.0\TelephoneDirectory.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\obj\Debug\net7.0\TelephoneDirectory.Service.AssemblyInfoInputs.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\obj\Debug\net7.0\TelephoneDirectory.Service.AssemblyInfo.cs
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\obj\Debug\net7.0\TelephoneDirectory.Service.csproj.CoreCompileInputs.cache
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\obj\Debug\net7.0\TelephoneDirectory.Service.csproj.CopyComplete
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\obj\Debug\net7.0\TelephoneDirectory.Service.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\obj\Debug\net7.0\refint\TelephoneDirectory.Service.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\obj\Debug\net7.0\TelephoneDirectory.Service.pdb
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Service\obj\Debug\net7.0\ref\TelephoneDirectory.Service.dll

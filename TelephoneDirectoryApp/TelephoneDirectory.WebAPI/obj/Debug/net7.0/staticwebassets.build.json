@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "p7Iq4kB8vVtOZA3hqGkh+RDfUQZykPkP+YkvYJ33CvE=",
+  "Source": "TelephoneDirectory.WebAPI",
+  "BasePath": "_content/TelephoneDirectory.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

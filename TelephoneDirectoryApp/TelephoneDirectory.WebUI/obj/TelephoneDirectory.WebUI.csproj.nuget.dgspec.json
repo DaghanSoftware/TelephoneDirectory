@@ -1,0 +1,263 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.WebUI\\TelephoneDirectory.WebUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Core\\TelephoneDirectory.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Core\\TelephoneDirectory.Core.csproj",
+        "projectName": "TelephoneDirectory.Core",
+        "projectPath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Core\\TelephoneDirectory.Core.csproj",
+        "packagesPath": "C:\\Users\\STElb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\STElb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Repository\\TelephoneDirectory.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Repository\\TelephoneDirectory.Repository.csproj",
+        "projectName": "TelephoneDirectory.Repository",
+        "projectPath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Repository\\TelephoneDirectory.Repository.csproj",
+        "packagesPath": "C:\\Users\\STElb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\STElb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Core\\TelephoneDirectory.Core.csproj": {
+                "projectPath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Core\\TelephoneDirectory.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj",
+        "projectName": "TelephoneDirectory.Service",
+        "projectPath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj",
+        "packagesPath": "C:\\Users\\STElb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\STElb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Repository\\TelephoneDirectory.Repository.csproj": {
+                "projectPath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Repository\\TelephoneDirectory.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.WebUI\\TelephoneDirectory.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.WebUI\\TelephoneDirectory.WebUI.csproj",
+        "projectName": "TelephoneDirectory.WebUI",
+        "projectPath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.WebUI\\TelephoneDirectory.WebUI.csproj",
+        "packagesPath": "C:\\Users\\STElb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\STElb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj": {
+                "projectPath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
