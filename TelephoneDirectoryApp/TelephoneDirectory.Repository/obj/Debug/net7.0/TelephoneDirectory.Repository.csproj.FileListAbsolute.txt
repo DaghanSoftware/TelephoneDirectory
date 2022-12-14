@@ -13,3 +13,5 @@ C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp
 C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Repository\obj\Debug\net7.0\refint\TelephoneDirectory.Repository.dll
 C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Repository\obj\Debug\net7.0\TelephoneDirectory.Repository.pdb
 C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Repository\obj\Debug\net7.0\ref\TelephoneDirectory.Repository.dll
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Repository\bin\Debug\net7.0\TelephoneDirectory.Repository.runtimeconfig.json
+C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Repository\obj\Debug\net7.0\TelephoneDirectory.Repository.genruntimeconfig.cache

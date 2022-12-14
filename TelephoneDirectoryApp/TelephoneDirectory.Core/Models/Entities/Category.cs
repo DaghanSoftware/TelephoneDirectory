@@ -8,7 +8,7 @@ namespace TelephoneDirectory.Core.Models.Entities
 {
     public class Category:BaseEntity
     {
-        public int Name { get; set; }
+        public string Name { get; set; }
 
         //Navigation Property
         public ICollection<Product> Products { get; set; }
