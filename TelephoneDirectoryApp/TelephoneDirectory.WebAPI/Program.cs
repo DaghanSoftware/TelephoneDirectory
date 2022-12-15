@@ -6,6 +6,8 @@ using TelephoneDirectory.Core.UnitOfWorks;
 using TelephoneDirectory.Repository;
 using TelephoneDirectory.Repository.Repositories;
 using TelephoneDirectory.Repository.UnitOfWorks;
+using TelephoneDirectory.Service.Mapping;
+using TelephoneDirectory.Service.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +21,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-//builder.Services.AddScoped(typeof(IService<>), typeof(Service));
+builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
+builder.Services.AddAutoMapper(typeof(MapProfile));
 
 builder.Services.AddDbContext<AppDbContext>(x =>
 {
