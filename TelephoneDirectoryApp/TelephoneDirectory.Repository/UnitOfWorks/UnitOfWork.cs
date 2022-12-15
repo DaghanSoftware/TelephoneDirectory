@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TelephoneDirectory.Core.UnitOfWorks;
+﻿using TelephoneDirectory.Core.UnitOfWorks;
 
 namespace TelephoneDirectory.Repository.UnitOfWorks
 {
@@ -23,7 +18,7 @@ namespace TelephoneDirectory.Repository.UnitOfWorks
 
         public async Task CommitAsync()
         {
-           await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
         }
     }
 }

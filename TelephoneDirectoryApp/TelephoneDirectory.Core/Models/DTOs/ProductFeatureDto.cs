@@ -1,6 +1,6 @@
-﻿namespace TelephoneDirectory.Core.Models.Entities
+﻿namespace TelephoneDirectory.Core.Models.DTOs
 {
-    public class ProductFeature
+    public class ProductFeatureDto
     {
         public int Id { get; set; }
 
@@ -11,8 +11,5 @@
         public int Width { get; set; }
 
         public int ProductId { get; set; }
-
-        public Product Product { get; set; }
-
     }
 }
