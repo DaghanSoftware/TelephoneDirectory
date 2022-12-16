@@ -8,12 +8,15 @@ using TelephoneDirectory.Repository.Repositories;
 using TelephoneDirectory.Repository.UnitOfWorks;
 using TelephoneDirectory.Service.Mapping;
 using TelephoneDirectory.Service.Services;
+using TelephoneDirectory.Service.Validations;
+using FluentValidation.AspNetCore;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
