@@ -11,7 +11,7 @@
         "projectName": "TelephoneDirectory.Core",
         "projectPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Core\\TelephoneDirectory.Core.csproj",
         "packagesPath": "C:\\Users\\STElb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectory.Core\\obj\\",
+        "outputPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -71,7 +71,7 @@
         "projectName": "TelephoneDirectory.Repository",
         "projectPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Repository\\TelephoneDirectory.Repository.csproj",
         "packagesPath": "C:\\Users\\STElb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectory.Repository\\obj\\",
+        "outputPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -151,7 +151,7 @@
         "projectName": "TelephoneDirectory.Service",
         "projectPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj",
         "packagesPath": "C:\\Users\\STElb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectory.Service\\obj\\",
+        "outputPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -225,7 +225,7 @@
         "projectName": "TelephoneDirectory.WebAPI",
         "projectPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebAPI\\TelephoneDirectory.WebAPI.csproj",
         "packagesPath": "C:\\Users\\STElb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectory.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
