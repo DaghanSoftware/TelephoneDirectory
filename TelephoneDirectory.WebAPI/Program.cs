@@ -13,6 +13,7 @@ using FluentValidation.AspNetCore;
 using System.Reflection;
 using TelephoneDirectory.WebAPI.Filters;
 using Microsoft.AspNetCore.Mvc;
+using TelephoneDirectory.WebAPI.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -57,6 +58,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCustomException();
 
 app.UseAuthorization();
 
