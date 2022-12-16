@@ -1,2 +1,0 @@
-# TelephoneDirectory
- Telefon Rehberi Uygulaması
