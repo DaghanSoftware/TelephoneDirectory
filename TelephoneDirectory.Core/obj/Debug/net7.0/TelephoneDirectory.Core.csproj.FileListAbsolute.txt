@@ -10,3 +10,15 @@ C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp
 C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Core\obj\Debug\net7.0\refint\TelephoneDirectory.Core.dll
 C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Core\obj\Debug\net7.0\TelephoneDirectory.Core.pdb
 C:\Users\STElb\OneDrive\Belgeler\GitHub\TelephoneDirectory\TelephoneDirectoryApp\TelephoneDirectory.Core\obj\Debug\net7.0\ref\TelephoneDirectory.Core.dll
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.Core\bin\Debug\net7.0\TelephoneDirectory.Core.deps.json
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.Core\bin\Debug\net7.0\TelephoneDirectory.Core.dll
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.Core\bin\Debug\net7.0\TelephoneDirectory.Core.pdb
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.Core\obj\Debug\net7.0\TelephoneDirectory.Core.csproj.AssemblyReference.cache
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.Core\obj\Debug\net7.0\TelephoneDirectory.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.Core\obj\Debug\net7.0\TelephoneDirectory.Core.AssemblyInfoInputs.cache
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.Core\obj\Debug\net7.0\TelephoneDirectory.Core.AssemblyInfo.cs
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.Core\obj\Debug\net7.0\TelephoneDirectory.Core.csproj.CoreCompileInputs.cache
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.Core\obj\Debug\net7.0\TelephoneDirectory.Core.dll
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.Core\obj\Debug\net7.0\refint\TelephoneDirectory.Core.dll
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.Core\obj\Debug\net7.0\TelephoneDirectory.Core.pdb
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.Core\obj\Debug\net7.0\ref\TelephoneDirectory.Core.dll
