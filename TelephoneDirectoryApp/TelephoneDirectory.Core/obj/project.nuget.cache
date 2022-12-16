@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g8m8zQOTypmr0+c40desURkYo1pof7xbdU3hH4a6YMZrxU6IfcLJvtwuPR3+OUcBAo/4BLLEkhx2UPhBSTIqfw==",
+  "dgSpecHash": "mZli3HvzJh/bddemJhXIcHBFsJLlfkhtrwHC4pnFmYPLzCK9CCRGVNJpVe3gOYRWKDxZ7zjK6JDjyPk5eDSSWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Core\\TelephoneDirectory.Core.csproj",
+  "projectFilePath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Core\\TelephoneDirectory.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

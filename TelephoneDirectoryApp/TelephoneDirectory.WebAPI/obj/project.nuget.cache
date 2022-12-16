@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "er6Q3+JFBrysl9nQsjHkn00EujL7c9JpNC9FX65l7Wnm0cI4QBbs3J8Ikt9Z3YaeWni1HwEk7x+udp92s0XmEg==",
+  "dgSpecHash": "oLsqRL6xbtqQb82BkcwD5sSwEo6fyxXwJp4PEy/qZlmSI3ENp/KnwDSLnFvkS2FZ/mVmcxDuVaRoTK3SKhxL1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\STElb\\OneDrive\\Belgeler\\GitHub\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.WebAPI\\TelephoneDirectory.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.WebAPI\\TelephoneDirectory.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\STElb\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
