@@ -11,12 +11,19 @@ using TelephoneDirectory.Service.Services;
 using TelephoneDirectory.Service.Validations;
 using FluentValidation.AspNetCore;
 using System.Reflection;
+using TelephoneDirectory.WebAPI.Filters;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers().AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
+builder.Services.AddControllers(options => { options.Filters.Add(new ValidationFilterAttribute()); }).AddFluentValidation(x =>
+x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
