@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lIRdNwldKb2abLUAdCbLLB226sPfcYf/y0XBhTk4Z5JHczrZvci0bSLfyi33S64RcoxMyUtdqG1HkX11Nbcn0g==",
+  "dgSpecHash": "y8GMrHjR9pcLtJxjsGA2E1gUYRvFYvwUrBPiER4breFm77nQNPKm7dALrDqrXIX+Zwd5av4D2G+CX8n7L2nLNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Repository\\TelephoneDirectory.Repository.csproj",
+  "projectFilePath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Repository\\TelephoneDirectory.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\STElb\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

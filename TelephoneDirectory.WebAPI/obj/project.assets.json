@@ -4101,11 +4101,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.WebAPI\\TelephoneDirectory.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebAPI\\TelephoneDirectory.WebAPI.csproj",
       "projectName": "TelephoneDirectory.WebAPI",
-      "projectPath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.WebAPI\\TelephoneDirectory.WebAPI.csproj",
+      "projectPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebAPI\\TelephoneDirectory.WebAPI.csproj",
       "packagesPath": "C:\\Users\\STElb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectory.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4127,8 +4127,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj": {
-              "projectPath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj"
+            "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj": {
+              "projectPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "geMK2BWLoa9LebiN8LSV32VAqYPBWlP7GmFo7M3cFAGp+c4ibHdl/nJnlCww3eHAVy9j1OPC4zorZxq/PQ3m5Q==",
+  "dgSpecHash": "vykCpeQNv6XBMXeExFIvNwg2FunjP7pxRhhd3IhCijYaxLT1Efch7uJDb2vmy2kgqKFaacE3nX9G/FM1lVMmtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectoryApp\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj",
+  "projectFilePath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\STElb\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
