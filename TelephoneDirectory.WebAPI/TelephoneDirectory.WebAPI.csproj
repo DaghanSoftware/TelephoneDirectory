@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TelephoneDirectory.Service\TelephoneDirectory.Service.csproj" />
+    <ProjectReference Include="..\TelephoneDirectory.Caching\TelephoneDirectory.Caching.csproj" />
   </ItemGroup>
 
 </Project>

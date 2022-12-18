@@ -1339,6 +1339,19 @@
           }
         }
       },
+      "TelephoneDirectory.Caching/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "TelephoneDirectory.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TelephoneDirectory.Caching.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TelephoneDirectory.Caching.dll": {}
+        }
+      },
       "TelephoneDirectory.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -4143,6 +4156,11 @@
         "version.txt"
       ]
     },
+    "TelephoneDirectory.Caching/1.0.0": {
+      "type": "project",
+      "path": "../TelephoneDirectory.Caching/TelephoneDirectory.Caching.csproj",
+      "msbuildProject": "../TelephoneDirectory.Caching/TelephoneDirectory.Caching.csproj"
+    },
     "TelephoneDirectory.Core/1.0.0": {
       "type": "project",
       "path": "../TelephoneDirectory.Core/TelephoneDirectory.Core.csproj",
@@ -4166,7 +4184,7 @@
       "Microsoft.AspNetCore.OpenApi >= 7.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.1",
       "Swashbuckle.AspNetCore >= 6.4.0",
-      "TelephoneDirectory.Service >= 1.0.0"
+      "TelephoneDirectory.Caching >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4202,8 +4220,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj": {
-              "projectPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Service\\TelephoneDirectory.Service.csproj"
+            "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Caching\\TelephoneDirectory.Caching.csproj": {
+              "projectPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Caching\\TelephoneDirectory.Caching.csproj"
             }
           }
         }

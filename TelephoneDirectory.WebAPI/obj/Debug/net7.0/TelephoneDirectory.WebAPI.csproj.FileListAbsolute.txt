@@ -174,3 +174,5 @@ C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebAPI\obj\Deb
 C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebAPI\obj\Debug\net7.0\ref\TelephoneDirectory.WebAPI.dll
 C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebAPI\bin\Debug\net7.0\Autofac.dll
 C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebAPI\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebAPI\bin\Debug\net7.0\TelephoneDirectory.Caching.dll
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebAPI\bin\Debug\net7.0\TelephoneDirectory.Caching.pdb

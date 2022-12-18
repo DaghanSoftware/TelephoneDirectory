@@ -6,4 +6,8 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TelephoneDirectory.Service\TelephoneDirectory.Service.csproj" />
+  </ItemGroup>
+
 </Project>
