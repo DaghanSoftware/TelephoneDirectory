@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0Bq/hoBhXposZVtDuGz+Dw/7tx1C9NuARk18XW7GoYYR2zCMECP+KzXX9SyThDecwYEBuqboHIw6gDp493LFZg==",
+  "dgSpecHash": "uq0i408bTptVBsmFunpCZTgBOHF5Mlxy13kzXkGeeWSllylxdVvVHZvZLCDYGjGknTezRZqfzQW4T0FfVoHUTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebAPI\\TelephoneDirectory.WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\STElb\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\STElb\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\STElb\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
