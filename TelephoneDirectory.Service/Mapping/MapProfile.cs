@@ -4,9 +4,9 @@ using TelephoneDirectory.Core.Models.Entities;
 
 namespace TelephoneDirectory.Service.Mapping
 {
-    public class MapProfile:Profile
+    public class MapProfile : Profile
     {
-        public MapProfile() 
+        public MapProfile()
         {
             CreateMap<Product, ProductDto>().ReverseMap();
             CreateMap<Category, CategoryDto>().ReverseMap();

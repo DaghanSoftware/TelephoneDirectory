@@ -1,10 +1,10 @@
-using Autofac.Extensions.DependencyInjection;
 using Autofac;
-using TelephoneDirectory.WebUI.Modules;
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using TelephoneDirectory.Repository;
 using System.Reflection;
+using TelephoneDirectory.Repository;
 using TelephoneDirectory.Service.Mapping;
+using TelephoneDirectory.WebUI.Modules;
 
 var builder = WebApplication.CreateBuilder(args);
 
