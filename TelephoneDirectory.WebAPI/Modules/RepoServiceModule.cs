@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using System.Reflection;
+using TelephoneDirectory.Caching;
 using TelephoneDirectory.Core.Repositories;
 using TelephoneDirectory.Core.Services;
 using TelephoneDirectory.Core.UnitOfWorks;
@@ -29,6 +30,8 @@ namespace TelephoneDirectory.WebAPI.Modules
 
             builder.RegisterAssemblyTypes(apiAssembly, repoAssembly, serviceAssemblye).Where(x => x.Name.EndsWith
             ("Service")).AsImplementedInterfaces().InstancePerLifetimeScope();
+
+            builder.RegisterType<ProductServiceWithCaching>().As<IProductService>();
 
         }
     }

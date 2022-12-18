@@ -28,7 +28,7 @@ namespace TelephoneDirectory.Caching
 
             if (!_memoryCache.TryGetValue(CacheProductKey, out _))
             {
-                _memoryCache.Set(CacheProductKey, _productRepository.GetAll().ToList());
+                _memoryCache.Set(CacheProductKey, _productRepository.GetProductsWithCategory().Result);
             }
         }
 
@@ -74,7 +74,7 @@ namespace TelephoneDirectory.Caching
 
         public Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductsWithCategory()
         {
-            var products =  await _productRepository.GetProductsWithCategory();
+            var products = _memoryCache.Get<IEnumerable<Product>>(CacheProductKey);
             var productWithCategoryDto = _mapper.Map<List<ProductWithCategoryDto>>(products);
             return Task.FromResult(CustomResponseDto<List<ProductWithCategoryDto>>.Success(200, productWithCategoryDto));
         }
@@ -107,7 +107,7 @@ namespace TelephoneDirectory.Caching
 
         public async Task CacheAllProductAsync()
         {
-            _memoryCache.Set(CacheProductKey, await _productRepository.GetAll().ToListAsync());
+            _memoryCache.Set(CacheProductKey, await _productRepository.GetProductsWithCategory());
         }
     }
 }
