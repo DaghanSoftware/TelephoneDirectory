@@ -9,6 +9,7 @@
       "TelephoneDirectory.WebUI/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "8.0.0",
+          "FluentValidation.AspNetCore": "11.2.2",
           "TelephoneDirectory.Caching": "1.0.0"
         },
         "runtime": {
