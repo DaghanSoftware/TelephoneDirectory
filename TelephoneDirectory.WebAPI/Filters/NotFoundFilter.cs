@@ -24,9 +24,9 @@ namespace TelephoneDirectory.WebAPI.Filters
                 return;
             }
             var id = (int)idValue;
-            var anyEntity=await _service.AnyAsync(x=>x.Id==id);
-            if (anyEntity) 
-            { 
+            var anyEntity = await _service.AnyAsync(x => x.Id == id);
+            if (anyEntity)
+            {
                 await next.Invoke();
                 return;
             }

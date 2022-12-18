@@ -1,20 +1,14 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
-using TelephoneDirectory.Core.Repositories;
-using TelephoneDirectory.Core.Services;
-using TelephoneDirectory.Core.UnitOfWorks;
 using TelephoneDirectory.Repository;
-using TelephoneDirectory.Repository.Repositories;
-using TelephoneDirectory.Repository.UnitOfWorks;
 using TelephoneDirectory.Service.Mapping;
-using TelephoneDirectory.Service.Services;
 using TelephoneDirectory.Service.Validations;
-using FluentValidation.AspNetCore;
 using TelephoneDirectory.WebAPI.Filters;
-using Microsoft.AspNetCore.Mvc;
 using TelephoneDirectory.WebAPI.Middlewares;
-using Autofac.Extensions.DependencyInjection;
-using Autofac;
 using TelephoneDirectory.WebAPI.Modules;
 
 var builder = WebApplication.CreateBuilder(args);

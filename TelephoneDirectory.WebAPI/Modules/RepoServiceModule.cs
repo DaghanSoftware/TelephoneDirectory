@@ -12,7 +12,7 @@ using TelephoneDirectory.Service.Services;
 using Module = Autofac.Module;
 namespace TelephoneDirectory.WebAPI.Modules
 {
-    public class RepoServiceModule:Module
+    public class RepoServiceModule : Module
     {
         protected override void Load(ContainerBuilder builder)
         {
@@ -25,7 +25,7 @@ namespace TelephoneDirectory.WebAPI.Modules
             var repoAssembly = Assembly.GetAssembly(typeof(AppDbContext));
             var serviceAssemblye = Assembly.GetAssembly(typeof(MapProfile));
 
-            builder.RegisterAssemblyTypes(apiAssembly, repoAssembly, serviceAssemblye).Where(x=>x.Name.EndsWith
+            builder.RegisterAssemblyTypes(apiAssembly, repoAssembly, serviceAssemblye).Where(x => x.Name.EndsWith
             ("Repository")).AsImplementedInterfaces().InstancePerLifetimeScope();
 
             builder.RegisterAssemblyTypes(apiAssembly, repoAssembly, serviceAssemblye).Where(x => x.Name.EndsWith

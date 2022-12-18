@@ -1,5 +1,4 @@
-﻿using TelephoneDirectory.Core.Models.DTOs;
-using TelephoneDirectory.Core.Models.Entities;
+﻿using TelephoneDirectory.Core.Models.Entities;
 
 namespace TelephoneDirectory.Core.Repositories
 {
