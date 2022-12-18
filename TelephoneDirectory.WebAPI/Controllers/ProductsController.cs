@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using TelephoneDirectory.Core.Models.DTOs;
 using TelephoneDirectory.Core.Models.Entities;
 using TelephoneDirectory.Core.Services;
+using TelephoneDirectory.WebAPI.Filters;
 
 namespace TelephoneDirectory.WebAPI.Controllers
 {
@@ -32,6 +33,7 @@ namespace TelephoneDirectory.WebAPI.Controllers
             //return Ok( CustomResponseDto<List<ProductDto>>.Success(200,productsDtos));
         }
 
+        [ServiceFilter(typeof(NotFoundFilter<Product>))]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -55,6 +57,7 @@ namespace TelephoneDirectory.WebAPI.Controllers
             return CreateActionResult(CustomResponseDto<NoContentDto>.Success(204));
         }
 
+        [ServiceFilter(typeof(NotFoundFilter<Product>))]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Remove(int id)
         {
