@@ -15,4 +15,8 @@
     <ProjectReference Include="..\TelephoneDirectory.Caching\TelephoneDirectory.Caching.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
 </Project>

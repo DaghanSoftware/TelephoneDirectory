@@ -26,6 +26,7 @@ namespace TelephoneDirectory.WebUI.Controllers
             return View(CustomRespone.Data);
         }
 
+
         public async Task<IActionResult> Save()
         {
             var categories = await _categoryService.GetAllAsync();
@@ -33,6 +34,7 @@ namespace TelephoneDirectory.WebUI.Controllers
             ViewBag.categories = new SelectList(categoriesDto, "Id", "Name");
             return View();
         }
+
 
         [HttpPost]
         public async Task<IActionResult> Save(ProductDto productDto)
@@ -48,7 +50,7 @@ namespace TelephoneDirectory.WebUI.Controllers
             ViewBag.categories = new SelectList(categoriesDto, "Id", "Name");
             return View();
         }
-
+        [ServiceFilter(typeof(NotFoundFilter<Product>))]
         public async Task<IActionResult> Update(int id)
         {
             var products = await _productService.GetByIdAsync(id);
