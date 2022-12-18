@@ -162,3 +162,7 @@ C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI\obj\Debu
 C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI\obj\Debug\net7.0\TelephoneDirectory.WebUI.pdb
 C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI\obj\Debug\net7.0\TelephoneDirectory.WebUI.genruntimeconfig.cache
 C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI\obj\Debug\net7.0\ref\TelephoneDirectory.WebUI.dll
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI\bin\Debug\net7.0\TelephoneDirectory.Caching.dll
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI\bin\Debug\net7.0\TelephoneDirectory.Caching.pdb
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI\bin\Debug\net7.0\Autofac.dll
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll

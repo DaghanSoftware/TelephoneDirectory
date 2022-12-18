@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TelephoneDirectory.Service\TelephoneDirectory.Service.csproj" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TelephoneDirectory.Caching\TelephoneDirectory.Caching.csproj" />
   </ItemGroup>
 
 </Project>
