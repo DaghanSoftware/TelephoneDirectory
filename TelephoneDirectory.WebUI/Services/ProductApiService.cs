@@ -13,7 +13,7 @@ namespace TelephoneDirectory.WebUI.Services
 
         public async Task<List<ProductWithCategoryDto>> GetProductWithCategoryAsync()
         {
-            var response = await _httpClient.GetFromJsonAsync<CustomResponseDto<List<ProductWithCategoryDto>>>("product/GetProductWithCategory");
+            var response = await _httpClient.GetFromJsonAsync<CustomResponseDto<List<ProductWithCategoryDto>>>("products/GetProductsWithCategory");
             return response.Data;
         }
 
@@ -30,20 +30,20 @@ namespace TelephoneDirectory.WebUI.Services
 
         public async Task<ProductDto> GetByIdAsync(int id)
         {
-            var response = await _httpClient.GetFromJsonAsync<CustomResponseDto<ProductDto>>($"product/{id}");
+            var response = await _httpClient.GetFromJsonAsync<CustomResponseDto<ProductDto>>($"products/{id}");
             return response.Data;
         }
 
         public async Task<bool> UpdateAsync(ProductDto newproduct)
         {
-            var response = await _httpClient.PutAsJsonAsync("product", newproduct);
+            var response = await _httpClient.PutAsJsonAsync("products", newproduct);
 
             return response.IsSuccessStatusCode;
         }
 
         public async Task<bool> RemoveAsync(int id)
         {
-            var response = await _httpClient.DeleteAsync($"product/{id}");
+            var response = await _httpClient.DeleteAsync($"products/{id}");
 
             return response.IsSuccessStatusCode;
         }
