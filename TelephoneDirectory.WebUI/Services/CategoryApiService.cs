@@ -1,4 +1,6 @@
-﻿namespace TelephoneDirectory.WebUI.Services
+﻿using TelephoneDirectory.Core.Models.DTOs;
+
+namespace TelephoneDirectory.WebUI.Services
 {
     public class CategoryApiService
     {
@@ -7,6 +9,11 @@
         public CategoryApiService(HttpClient httpClient)
         {
             _httpClient = httpClient;
+        }
+        public async Task<List<CategoryDto>> GetAllAsync()
+        {
+            var response = await _httpClient.GetFromJsonAsync<CustomResponseDto<List<CategoryDto>>>("categories");
+            return response.Data;
         }
     }
 }
