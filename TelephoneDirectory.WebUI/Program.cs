@@ -8,6 +8,7 @@ using TelephoneDirectory.Service.Mapping;
 using TelephoneDirectory.Service.Validations;
 using TelephoneDirectory.WebUI;
 using TelephoneDirectory.WebUI.Modules;
+using TelephoneDirectory.WebUI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,15 @@ builder.Services.AddDbContext<AppDbContext>(x =>
     {
         options.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name);
     });
+});
+
+builder.Services.AddHttpClient<ProductApiService>(opt =>
+{
+    opt.BaseAddress = new Uri(builder.Configuration["BaseUrl"]);
+});
+builder.Services.AddHttpClient<CategoryApiService>(opt =>
+{
+    opt.BaseAddress = new Uri(builder.Configuration["BaseUrl"]);
 });
 
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
