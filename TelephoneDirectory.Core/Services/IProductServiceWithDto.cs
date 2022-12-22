@@ -8,5 +8,7 @@ namespace TelephoneDirectory.Core.Services
         Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductsWithCategory();
         Task<CustomResponseDto<NoContentDto>> UpdateAsync(ProductUpdateDto dto);
         Task<CustomResponseDto<ProductDto>> AddAsync(ProductCreateDto dto);
+        Task<CustomResponseDto<IEnumerable<ProductDto>>> AddRangeAsync(IEnumerable<ProductCreateDto> entities);
+        //Task<CustomResponseDto<IEnumerable<ProductDto>>> RemoveRangeAsync(IEnumerable<int> ids);
     }
 }

@@ -1,10 +1,5 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TelephoneDirectory.Core.Models.DTOs;
 using TelephoneDirectory.Core.Models.Entities;
 using TelephoneDirectory.Core.Repositories;
@@ -31,6 +26,15 @@ namespace TelephoneDirectory.Service.Services
             return CustomResponseDto<ProductDto>.Success(StatusCodes.Status200OK, newDto);
         }
 
+        public async Task<CustomResponseDto<IEnumerable<ProductDto>>> AddRangeAsync(IEnumerable<ProductCreateDto> entities)
+        {
+            var newEntity = _mapper.Map<IEnumerable<Product>>(entities);
+            await _productRepository.AddRangeAsync(newEntity);
+            await _unitOfWork.CommitAsync();
+            var newDto = _mapper.Map<List<ProductDto>>(newEntity);
+            return CustomResponseDto<IEnumerable<ProductDto>>.Success(StatusCodes.Status200OK, newDto);
+        }
+
         public async Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductsWithCategory()
         {
             var products = await _productRepository.GetProductsWithCategory();
@@ -45,5 +49,6 @@ namespace TelephoneDirectory.Service.Services
             await _unitOfWork.CommitAsync();
             return CustomResponseDto<NoContentDto>.Success(StatusCodes.Status204NoContent);
         }
+
     }
 }
