@@ -15,6 +15,7 @@ namespace TelephoneDirectory.Core.Models.Entities
         public double NortheastLng { get; set; }
         public double SouthwestLat { get; set; }
         public double SouthwestLng { get; set; }
+        public int CountryId { get; set; }
 
         public Country Countries { get; set; }
         public ICollection<County> Counties { get; set; }
