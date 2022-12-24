@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TelephoneDirectory.Core.Models.Entities
 {
-    internal class MainInstitution
+    public class MainInstitution:BaseEntity
     {
+        public string  Name { get; set; }
     }
 }
