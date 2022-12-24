@@ -10,6 +10,12 @@ namespace TelephoneDirectory.Service.Mapping
         {
             CreateMap<Product, ProductDto>().ReverseMap();
             CreateMap<Category, CategoryDto>().ReverseMap();
+            CreateMap<Country, CountryDto>().ReverseMap();
+            CreateMap<City, CityDto>().ReverseMap();
+            CreateMap<County, CountyDto>().ReverseMap();
+            CreateMap<MainInstitution, MainInstitutionDto>().ReverseMap();
+            CreateMap<Institution, InstitutionDto>().ReverseMap();
+
             CreateMap<ProductFeature, ProductFeatureDto>().ReverseMap();
             CreateMap<ProductUpdateDto, Product>();
             CreateMap<Product, ProductWithCategoryDto>();
