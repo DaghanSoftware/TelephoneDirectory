@@ -34,6 +34,7 @@ namespace TelephoneDirectory.WebAPI.Modules
             ("Service")).AsImplementedInterfaces().InstancePerLifetimeScope();
 
             builder.RegisterType<ProductServiceWithCaching>().As<IProductService>();
+            builder.RegisterType<CountryServiceWithCaching>().As<ICountryService>();
 
         }
     }

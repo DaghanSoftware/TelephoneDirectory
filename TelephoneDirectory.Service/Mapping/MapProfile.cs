@@ -14,7 +14,10 @@ namespace TelephoneDirectory.Service.Mapping
             CreateMap<City, CityDto>().ReverseMap();
             CreateMap<County, CountyDto>().ReverseMap();
             CreateMap<MainInstitution, MainInstitutionDto>().ReverseMap();
+
             CreateMap<Institution, InstitutionDto>().ReverseMap();
+            CreateMap<InstitutionCreateDto, Institution>();
+            CreateMap<InstitutionUpdateDto, Institution>();
 
             CreateMap<ProductFeature, ProductFeatureDto>().ReverseMap();
             CreateMap<ProductUpdateDto, Product>();

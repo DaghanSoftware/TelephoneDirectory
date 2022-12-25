@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TelephoneDirectory.Core.Models.DTOs;
+using TelephoneDirectory.Core.Models.Entities;
 using TelephoneDirectory.Core.Services;
 using TelephoneDirectory.Service.Services;
+using TelephoneDirectory.WebAPI.Filters;
 
 namespace TelephoneDirectory.WebAPI.Controllers
 {
@@ -18,5 +21,18 @@ namespace TelephoneDirectory.WebAPI.Controllers
         {
             return CreateActionResult(await _countryService.GetAllAsync());
         }
+
+        [ServiceFilter(typeof(NotFoundFilter<Country>))]
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            return CreateActionResult(await _countryService.GetByIdAsync(id));
+        }
+
+        //[HttpGet("/Where")]
+        //public async Task<IActionResult> Where()
+        //{
+        //    return CreateActionResult(await _countryService.Where(x => x.Name=="TURKEY"));
+        //}
     }
 }

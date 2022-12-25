@@ -10,5 +10,9 @@ namespace TelephoneDirectory.Core.Services
 {
     public interface IInstitutionService : IServiceWithDto<Institution, InstitutionDto>
     {
+        //Task<CustomResponseDto<List<InstitutionWithOtherTableDto>>> GetInstitutionWithAllTable();
+        Task<CustomResponseDto<NoContentDto>> UpdateAsync(InstitutionUpdateDto dto);
+        Task<CustomResponseDto<InstitutionDto>> AddAsync(InstitutionCreateDto dto);
+        Task<CustomResponseDto<IEnumerable<InstitutionDto>>> AddRangeAsync(IEnumerable<InstitutionCreateDto> entities);
     }
 }
