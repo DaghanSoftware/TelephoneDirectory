@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
@@ -22,7 +23,7 @@ namespace TelephoneDirectory.Caching
     
     public class CountryServiceWithCaching:ICountryService
     {
-        private const string CacheCountryKey = "categoriesCache";
+        private const string CacheCountryKey = "countriesCache";
         private readonly IMapper _mapper;
         private readonly IMemoryCache _memoryCache;
         private readonly ICountryRepository _countryRepository;
@@ -36,9 +37,7 @@ namespace TelephoneDirectory.Caching
             _unitofwork = unitofwork;
             if (!_memoryCache.TryGetValue(CacheCountryKey, out _))
             {
-                var countryentities = _countryRepository.GetAll().ToList();
-                var newDto = _mapper.Map<List<CountryDto>>(countryentities);
-                _memoryCache.Set(CacheCountryKey, newDto);
+                _memoryCache.Set(CacheCountryKey, _countryRepository.GetAll().ToList());
             }
         }
 
@@ -69,13 +68,14 @@ namespace TelephoneDirectory.Caching
 
         public Task<CustomResponseDto<IEnumerable<CountryDto>>> GetAllAsync()
         {
-            var newEntity = _memoryCache.Get<IEnumerable<CountryDto>>(CacheCountryKey);
+           
+            var newEntity = _mapper.Map<List<CountryDto>>(_memoryCache.Get<IEnumerable<Country>>(CacheCountryKey));
             return Task.FromResult(CustomResponseDto<IEnumerable<CountryDto>>.Success(StatusCodes.Status200OK, newEntity));
         }
 
         public Task<CustomResponseDto<CountryDto>> GetByIdAsync(int id)
         {
-            var country = _memoryCache.Get<List<CountryDto>>(CacheCountryKey).FirstOrDefault(x => x.Id == id);
+            var country = _mapper.Map<CountryDto>(_memoryCache.Get<List<Country>>(CacheCountryKey).FirstOrDefault(x => x.Id == id));
             if (country == null)
             {
                 throw new NotFoundException($"{typeof(Country).Name} ({id}) not found");
@@ -115,12 +115,12 @@ namespace TelephoneDirectory.Caching
 
         public Task<CustomResponseDto<IEnumerable<CountryDto>>> Where(Expression<Func<Country, bool>> expression)
         {
-            var newDto = _mapper.Map<List<CountryDto>>(_memoryCache.Get<List<Country>>(CacheCountryKey).Where(expression.Compile()).AsEnumerable());
-            return Task.FromResult(CustomResponseDto<IEnumerable<CountryDto>>.Success(StatusCodes.Status200OK, newDto));
+            var country = _mapper.Map<List<CountryDto>>(_memoryCache.Get<List<Country>>(CacheCountryKey).Where(expression.Compile()).AsEnumerable());
+            return Task.FromResult(CustomResponseDto<IEnumerable<CountryDto>>.Success(StatusCodes.Status200OK, country));
         }
         public async Task CacheAllCountryAsync()
         {
-            _memoryCache.Set(CacheCountryKey,  _mapper.Map<List<CountryDto>>(await _countryRepository.GetAll().ToListAsync()));
+            _memoryCache.Set(CacheCountryKey,  await _countryRepository.GetAll().ToListAsync());
         }
     }
 }
