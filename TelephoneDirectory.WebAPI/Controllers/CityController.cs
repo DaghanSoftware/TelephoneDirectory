@@ -29,7 +29,7 @@ namespace TelephoneDirectory.WebAPI.Controllers
         }
 
 
-        [HttpGet("/City{countryid}")]
+        [HttpGet("[action]/{countryid}")]
         public async Task<IActionResult> GetCountryIdEqualsCity(int countryid)
         {
             return CreateActionResult(await _cityService.Where(x=>x.CountryId== countryid));

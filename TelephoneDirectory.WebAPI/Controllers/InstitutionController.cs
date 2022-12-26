@@ -49,19 +49,19 @@ namespace TelephoneDirectory.WebAPI.Controllers
             return CreateActionResult(await _institutionService.RemoveAsync(id));
         }
 
-        [HttpPost("/SaveAllInstitution")]
+        [HttpPost("[action]")]
         public async Task<IActionResult> SaveAll(List<InstitutionCreateDto> institutionDto)
         {
             return CreateActionResult(await _institutionService.AddRangeAsync(institutionDto));
         }
 
-        [HttpDelete("/RemoveAllInstitution")]
+        [HttpDelete("[action]")]
         public async Task<IActionResult> RemoveAll(List<int> ids)
         {
             return CreateActionResult(await _institutionService.RemoveRangeAsync(ids));
         }
 
-        [HttpGet("/AnyInstitution{id}")]
+        [HttpGet("[action]/{id}")]
         public async Task<IActionResult> Any(int id)
         {
             return CreateActionResult(await _institutionService.AnyAsync(x => x.Id == id));

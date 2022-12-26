@@ -29,7 +29,7 @@ namespace TelephoneDirectory.WebAPI.Controllers
             return CreateActionResult(await _countryService.GetByIdAsync(id));
         }
 
-        [HttpGet("/CountryTurkey")]
+        [HttpGet("[action]")]
         public async Task<IActionResult> Where()
         {
             return CreateActionResult(await _countryService.Where(x => x.Name == "TURKEY"));

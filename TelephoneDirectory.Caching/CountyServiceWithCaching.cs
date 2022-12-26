@@ -2,18 +2,12 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 using TelephoneDirectory.Core.Models.DTOs;
 using TelephoneDirectory.Core.Models.Entities;
 using TelephoneDirectory.Core.Repositories;
 using TelephoneDirectory.Core.Services;
 using TelephoneDirectory.Core.UnitOfWorks;
-using TelephoneDirectory.Repository.Repositories;
 using TelephoneDirectory.Service.Exceptions;
 
 namespace TelephoneDirectory.Caching
@@ -34,6 +28,7 @@ namespace TelephoneDirectory.Caching
             _unitofwork = unitofwork;
             if (!_memoryCache.TryGetValue(CacheCountyKey, out _))
             {
+                var deneme = _countyRepository.GetAll().ToList();
                 _memoryCache.Set(CacheCountyKey, _countyRepository.GetAll().ToList());
             }
         }
