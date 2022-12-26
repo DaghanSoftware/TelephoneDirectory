@@ -36,6 +36,7 @@ namespace TelephoneDirectory.WebAPI.Modules
             builder.RegisterType<ProductServiceWithCaching>().As<IProductService>();
             builder.RegisterType<CountryServiceWithCaching>().As<ICountryService>();
             builder.RegisterType<CityServiceWithCaching>().As<ICityService>();
+            builder.RegisterType<CountyServiceWithCaching>().As<ICountyService>();
 
         }
     }
