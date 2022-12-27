@@ -1,7 +1,12 @@
+import Home from './components/Home';
+import './assets/css/index.css';
+import './assets/css/animated.css';
+import './assets/css/fontawesome.css';
+import './assets/css/owl.css';
 function App() {
   return (
     <div className="App">
-      <h1>Deneme</h1>
+        <Home></Home>
     </div>
   );
 }

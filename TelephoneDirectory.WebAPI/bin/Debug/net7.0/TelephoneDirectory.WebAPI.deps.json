@@ -749,6 +749,7 @@
       },
       "TelephoneDirectory.Caching/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.0",
           "TelephoneDirectory.Service": "1.0.0"
         },
         "runtime": {

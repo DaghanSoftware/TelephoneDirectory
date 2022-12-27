@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TelephoneDirectory.WebUI-React/1.0.0": {
+        "runtime": {
+          "TelephoneDirectory.WebUI-React.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TelephoneDirectory.WebUI-React/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

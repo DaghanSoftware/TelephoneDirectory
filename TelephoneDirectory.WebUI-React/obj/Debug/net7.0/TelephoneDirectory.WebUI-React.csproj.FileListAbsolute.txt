@@ -1,0 +1,12 @@
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI-React\bin\Debug\net7.0\TelephoneDirectory.WebUI-React.deps.json
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI-React\bin\Debug\net7.0\TelephoneDirectory.WebUI-React.dll
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI-React\bin\Debug\net7.0\TelephoneDirectory.WebUI-React.pdb
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI-React\obj\Debug\net7.0\TelephoneDirectory.WebUI-React.csproj.AssemblyReference.cache
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI-React\obj\Debug\net7.0\TelephoneDirectory.WebUI-React.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI-React\obj\Debug\net7.0\TelephoneDirectory.WebUI-React.AssemblyInfoInputs.cache
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI-React\obj\Debug\net7.0\TelephoneDirectory.WebUI-React.AssemblyInfo.cs
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI-React\obj\Debug\net7.0\TelephoneDirectory.WebUI-React.csproj.CoreCompileInputs.cache
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI-React\obj\Debug\net7.0\TelephoneDirectory.WebUI-React.dll
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI-React\obj\Debug\net7.0\refint\TelephoneDirectory.WebUI-React.dll
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI-React\obj\Debug\net7.0\TelephoneDirectory.WebUI-React.pdb
+C:\Users\STElb\source\repos\TelephoneDirectory\TelephoneDirectory.WebUI-React\obj\Debug\net7.0\ref\TelephoneDirectory.WebUI-React.dll

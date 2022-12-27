@@ -1,27 +1,19 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using Microsoft.Extensions.Caching.Memory;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 using TelephoneDirectory.Core.Models.DTOs;
 using TelephoneDirectory.Core.Models.Entities;
 using TelephoneDirectory.Core.Repositories;
 using TelephoneDirectory.Core.Services;
 using TelephoneDirectory.Core.UnitOfWorks;
-using TelephoneDirectory.Repository.Repositories;
-using TelephoneDirectory.Repository.UnitOfWorks;
 using TelephoneDirectory.Service.Exceptions;
 
 namespace TelephoneDirectory.Caching
 {
-    
-    public class CountryServiceWithCaching:ICountryService
+
+    public class CountryServiceWithCaching : ICountryService
     {
         private const string CacheCountryKey = "countriesCache";
         private readonly IMapper _mapper;
@@ -68,7 +60,7 @@ namespace TelephoneDirectory.Caching
 
         public Task<CustomResponseDto<IEnumerable<CountryDto>>> GetAllAsync()
         {
-           
+
             var newEntity = _mapper.Map<List<CountryDto>>(_memoryCache.Get<IEnumerable<Country>>(CacheCountryKey));
             return Task.FromResult(CustomResponseDto<IEnumerable<CountryDto>>.Success(StatusCodes.Status200OK, newEntity));
         }
@@ -120,7 +112,7 @@ namespace TelephoneDirectory.Caching
         }
         public async Task CacheAllCountryAsync()
         {
-            _memoryCache.Set(CacheCountryKey,  await _countryRepository.GetAll().ToListAsync());
+            _memoryCache.Set(CacheCountryKey, await _countryRepository.GetAll().ToListAsync());
         }
     }
 }
