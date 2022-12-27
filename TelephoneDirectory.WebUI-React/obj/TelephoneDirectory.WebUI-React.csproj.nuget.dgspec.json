@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebUI-React\\TelephoneDirectory.WebUI-React.csproj": {}
+    "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebUI-React\\TelephoneDirectory.WebUI-React.csproj": {}
   },
   "projects": {
-    "c:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebUI-React\\TelephoneDirectory.WebUI-React.csproj": {
+    "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebUI-React\\TelephoneDirectory.WebUI-React.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebUI-React\\TelephoneDirectory.WebUI-React.csproj",
+        "projectUniqueName": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebUI-React\\TelephoneDirectory.WebUI-React.csproj",
         "projectName": "TelephoneDirectory.WebUI-React",
-        "projectPath": "c:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebUI-React\\TelephoneDirectory.WebUI-React.csproj",
+        "projectPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebUI-React\\TelephoneDirectory.WebUI-React.csproj",
         "packagesPath": "C:\\Users\\STElb\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebUI-React\\obj\\",
+        "outputPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.WebUI-React\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

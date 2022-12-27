@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectory.Core\\TelephoneDirectory.Core.csproj",
+      "projectUniqueName": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Core\\TelephoneDirectory.Core.csproj",
       "projectName": "TelephoneDirectory.Core",
-      "projectPath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectory.Core\\TelephoneDirectory.Core.csproj",
+      "projectPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Core\\TelephoneDirectory.Core.csproj",
       "packagesPath": "C:\\Users\\STElb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\STElb\\Source\\Repos\\TelephoneDirectory\\TelephoneDirectory.Core\\obj\\",
+      "outputPath": "C:\\Users\\STElb\\source\\repos\\TelephoneDirectory\\TelephoneDirectory.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,11 +62,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
