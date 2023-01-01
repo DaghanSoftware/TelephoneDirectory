@@ -31,17 +31,7 @@ const Menu = () => {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#tm-section-4">
-                    Portfolio
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#tm-section-5">
-                    Blog Entries
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#tm-section-6">
-                    Contact Us
+                    Numaralar
                   </a>
                 </li>
               </ul>
