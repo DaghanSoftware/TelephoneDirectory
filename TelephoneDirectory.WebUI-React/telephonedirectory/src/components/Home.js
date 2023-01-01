@@ -1,94 +1,12 @@
 import React from 'react'
 import Menu from './Menu';
+import SearchBar from './SearchBar';
 const Home = () => {
   return (
     <div>
     <div className="tm-main-content" id="top">
       <Menu></Menu>
-            <div className="tm-section tm-bg-img" id="tm-section-1">
-                <div className="tm-bg-white ie-container-width-fix-2">
-                    <div className="container ie-h-align-center-fix">
-                        <div className="row">
-                            <div className="col-xs-12 ml-auto mr-auto ie-container-width-fix">
-                                <form action="index.html" method="get" className="tm-search-form tm-section-pad-2">
-                                    <div className="form-row tm-search-form-row">
-                                        <div className="form-group tm-form-element tm-form-element-100">
-                                            <i className="fa fa-map-marker fa-2x tm-form-element-icon"></i>
-                                            <input name="city" type="text" className="form-control" id="inputCity" placeholder="Type your destination..."/>
-                                        </div>
-                                        <div className="form-group tm-form-element tm-form-element-50">
-                                            <i className="fa fa-calendar fa-2x tm-form-element-icon"></i>
-                                            <input name="check-in" type="text" className="form-control" id="inputCheckIn" placeholder="Check In"/>
-                                        </div>
-                                        <div className="form-group tm-form-element tm-form-element-50">
-                                            <i className="fa fa-calendar fa-2x tm-form-element-icon"></i>
-                                            <input name="check-out" type="text" className="form-control" id="inputCheckOut" placeholder="Check Out"/>
-                                        </div>
-                                    </div>
-                                    <div className="form-row tm-search-form-row">
-                                        <div className="form-group tm-form-element tm-form-element-2">                                            
-                                            <select name="adult" className="form-control tm-select" id="adult">
-                                                <option value="">Adult</option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
-                                                <option value="7">7</option>
-                                                <option value="8">8</option>
-                                                <option value="9">9</option>
-                                                <option value="10">10</option>
-                                            </select>
-                                            <i className="fa fa-2x fa-user tm-form-element-icon"></i>
-                                        </div>
-                                        <div className="form-group tm-form-element tm-form-element-2">                                            
-                                            <select name="children" className="form-control tm-select" id="children">
-                                                <option value="">Children</option>
-                                                <option value="0">0</option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
-                                                <option value="7">7</option>
-                                                <option value="8">8</option>
-                                                <option value="9">9</option>
-                                                <option value="10">10</option>
-                                            </select>
-                                            <i className="fa fa-user tm-form-element-icon tm-form-element-icon-small"></i>
-                                        </div>
-                                        <div className="form-group tm-form-element tm-form-element-2">
-                                            <select name="room" className="form-control tm-select" id="room">
-                                                <option value="">Room</option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
-                                                <option value="7">7</option>
-                                                <option value="8">8</option>
-                                                <option value="9">9</option>
-                                                <option value="10">10</option>
-                                            </select>
-                                            <i className="fa fa-2x fa-bed tm-form-element-icon"></i>
-                                        </div>
-                                        <div className="form-group tm-form-element tm-form-element-2">
-                                            <button type="submit" className="btn btn-primary tm-btn-search">Check Availability</button>
-                                        </div>
-                                      </div>
-                                      <div className="form-row clearfix pl-2 pr-2 tm-fx-col-xs">
-                                          <p className="tm-margin-b-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                          <a href="#" className="ie-10-ml-auto ml-auto mt-1 tm-font-semibold tm-color-primary">Need Help?</a>
-                                      </div>
-                                </form>
-                            </div>                        
-                        </div>      
-                    </div>
-                </div>                  
-            </div>
+      <SearchBar></SearchBar>
             
             <div className="tm-section-2">
                 <div className="container">
@@ -133,60 +51,7 @@ const Home = () => {
             <div className="tm-section tm-section-pad tm-bg-gray" id="tm-section-4">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                            <div className="tm-article-carousel">                            
-                                <article className="tm-bg-white mr-2 tm-carousel-item">
-                                    <img src="img/img-01.jpg" alt="Image" className="img-fluid"></img>
-                                    <div className="tm-article-pad">
-                                        <header><h3 className="text-uppercase tm-article-title-2">Nunc in felis aliquet metus luctus iaculis</h3></header>
-                                        <p>Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla. Nullam sollicitudin at augue venenatis eleifend. Nulla ligula ligula, egestas sit amet viverra id, iaculis sit amet ligula.</p>
-                                        <a href="#" className="text-uppercase btn-primary tm-btn-primary">Get More Info.</a>
-                                    </div>                                
-                                </article>                    
-                                <article className="tm-bg-white mr-2 tm-carousel-item">
-                                    <img src="img/img-02.jpg" alt="Image" className="img-fluid"></img>
-                                    <div className="tm-article-pad">
-                                        <header><h3 className="text-uppercase tm-article-title-2">Sed cursus dictum nunc quis molestie</h3></header>
-                                        <p>Pellentesque quis dui sit amet purus scelerisque eleifend sed ut eros. Morbi viverra blandit massa in varius. Sed nec ex eu ex tincidunt iaculis. Curabitur eget turpis gravida.</p>
-                                        <a href="#" className="text-uppercase btn-primary tm-btn-primary">View Detail</a>
-                                    </div>                                
-                                </article>
-                                <article className="tm-bg-white mr-2 tm-carousel-item">
-                                    <img src="img/img-01.jpg" alt="Image" className="img-fluid"></img>
-                                    <div className="tm-article-pad">
-                                        <header><h3 className="text-uppercase tm-article-title-2">Eget diam pellentesque interdum ut porta</h3></header>
-                                        <p>Aenean finibus tempor nulla, et maximus nibh dapibus ac. Duis consequat sed sapien venenatis consequat. Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla.</p>
-                                        <a href="#" className="text-uppercase btn-primary tm-btn-primary">More Info.</a>
-                                    </div>                                
-                                </article>
-                                <article className="tm-bg-white mr-2 tm-carousel-item">
-                                    <img src="img/img-02.jpg" alt="Image" className="img-fluid"></img>
-                                    <div className="tm-article-pad">
-                                        <header><h3 className="text-uppercase tm-article-title-2">Lorem ipsum dolor sit amet, consectetur</h3></header>
-                                        <p>Suspendisse molestie sed dui eget faucibus. Duis accumsan sagittis tortor in ultrices. Praesent tortor ante, fringilla ac nibh porttitor, fermentum commodo nulla.</p>
-                                        <a href="#" className="text-uppercase btn-primary tm-btn-primary">Detail Info.</a>
-                                    </div>                                
-                                </article>                    
-                                <article className="tm-bg-white mr-2 tm-carousel-item">
-                                    <img src="img/img-01.jpg" alt="Image" className="img-fluid"></img>
-                                    <div className="tm-article-pad">
-                                        <header><h3 className="text-uppercase tm-article-title-2">Orci varius natoque penatibus et</h3></header>
-                                        <p>Pellentesque quis dui sit amet purus scelerisque eleifend sed ut eros. Morbi viverra blandit massa in varius. Sed nec ex eu ex tincidunt iaculis. Curabitur eget turpis gravida.</p>
-                                        <a href="#" className="text-uppercase btn-primary tm-btn-primary">Read More</a>
-                                    </div>                                
-                                </article>
-                                <article className="tm-bg-white tm-carousel-item">
-                                    <img src="img/img-02.jpg" alt="Image" className="img-fluid"></img>
-                                    <div className="tm-article-pad">
-                                        <header><h3 className="text-uppercase tm-article-title-2">Nullam sollicitudin at augue venenatis eleifend</h3></header>
-                                        <p>Aenean finibus tempor nulla, et maximus nibh dapibus ac. Duis consequat sed sapien venenatis consequat. Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla.</p>
-                                        <a href="#" className="text-uppercase btn-primary tm-btn-primary">More Details</a>
-                                    </div>                                
-                                </article>
-                            </div>    
-                        </div>
-                        
-                        <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 tm-recommended-container">
+                    <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 tm-recommended-container">
                             <div className="tm-bg-white">
                                 <div className="tm-bg-primary tm-sidebar-pad">
                                     <h3 className="tm-color-white tm-sidebar-title">Recommended Places</h3>
@@ -220,6 +85,37 @@ const Home = () => {
                                 </div>
                             </div>                            
                         </div>
+                        <div className="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                            <div className="tm-article-carousel">                            
+                                <article className="tm-bg-white mr-2 tm-carousel-item">
+                                    <img src={require('../assest/img/img-01.jpg')} alt="Image" className="img-fluid"></img>
+                                    <div className="tm-article-pad">
+                                        <header><h3 className="text-uppercase tm-article-title-2">Nunc in felis aliquet metus luctus iaculis</h3></header>
+                                        <p>Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla. Nullam sollicitudin at augue venenatis eleifend. Nulla ligula ligula, egestas sit amet viverra id, iaculis sit amet ligula.</p>
+                                        <a href="#" className="text-uppercase btn-primary tm-btn-primary">Get More Info.</a>
+                                    </div>                                
+                                </article>                    
+                                <article className="tm-bg-white mr-2 tm-carousel-item">
+                                <img src={require('../assest/img/img-02.jpg')} alt="Image" className="img-fluid"></img>
+                                    <div className="tm-article-pad">
+                                        <header><h3 className="text-uppercase tm-article-title-2">Sed cursus dictum nunc quis molestie</h3></header>
+                                        <p>Pellentesque quis dui sit amet purus scelerisque eleifend sed ut eros. Morbi viverra blandit massa in varius. Sed nec ex eu ex tincidunt iaculis. Curabitur eget turpis gravida.</p>
+                                        <a href="#" className="text-uppercase btn-primary tm-btn-primary">View Detail</a>
+                                    </div>                                
+                                </article>
+                                <article className="tm-bg-white mr-2 tm-carousel-item">
+                                  
+                                    <img src={require('../assest/img/img-01.jpg')}alt="Image" className="img-fluid"></img>
+                                    <div className="tm-article-pad">
+                                        <header><h3 className="text-uppercase tm-article-title-2">Eget diam pellentesque interdum ut porta</h3></header>
+                                        <p>Aenean finibus tempor nulla, et maximus nibh dapibus ac. Duis consequat sed sapien venenatis consequat. Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla.</p>
+                                        <a href="#" className="text-uppercase btn-primary tm-btn-primary">More Info.</a>
+                                    </div>                                
+                                </article>
+                            </div>    
+                        </div>
+                        
+
                     </div>
                 </div>
             </div>
